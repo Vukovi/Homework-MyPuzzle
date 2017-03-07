@@ -12,6 +12,8 @@
 		BF9D4B381D1ACF50000000CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9D4B361D1ACF50000000CC /* Main.storyboard */; };
 		BF9D4B3A1D1ACF50000000CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9D4B391D1ACF50000000CC /* Assets.xcassets */; };
 		BF9D4B3D1D1ACF50000000CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9D4B3B1D1ACF50000000CC /* LaunchScreen.storyboard */; };
+		BF9D4B451D1ACF70000000CC /* TEODOSIC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF9D4B441D1ACF70000000CC /* TEODOSIC.jpg */; };
+		BF9D4B471D1ACFB4000000CC /* MojView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9D4B461D1ACFB4000000CC /* MojView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF9D4B391D1ACF50000000CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9D4B3C1D1ACF50000000CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9D4B3E1D1ACF50000000CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9D4B441D1ACF70000000CC /* TEODOSIC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TEODOSIC.jpg; sourceTree = "<group>"; };
+		BF9D4B461D1ACFB4000000CC /* MojView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MojView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 				BF9D4B321D1ACF50000000CC /* AppDelegate.swift */,
 				BF9D4B341D1ACF50000000CC /* ViewController.swift */,
 				BF9D4B361D1ACF50000000CC /* Main.storyboard */,
+				BF9D4B461D1ACFB4000000CC /* MojView.swift */,
 				BF9D4B391D1ACF50000000CC /* Assets.xcassets */,
 				BF9D4B3B1D1ACF50000000CC /* LaunchScreen.storyboard */,
+				BF9D4B441D1ACF70000000CC /* TEODOSIC.jpg */,
 				BF9D4B3E1D1ACF50000000CC /* Info.plist */,
 			);
 			path = "domaci mojPuzzle";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					BF9D4B2E1D1ACF50000000CC = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -123,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF9D4B3D1D1ACF50000000CC /* LaunchScreen.storyboard in Resources */,
+				BF9D4B451D1ACF70000000CC /* TEODOSIC.jpg in Resources */,
 				BF9D4B3A1D1ACF50000000CC /* Assets.xcassets in Resources */,
 				BF9D4B381D1ACF50000000CC /* Main.storyboard in Resources */,
 			);
@@ -137,6 +145,7 @@
 			files = (
 				BF9D4B351D1ACF50000000CC /* ViewController.swift in Sources */,
 				BF9D4B331D1ACF50000000CC /* AppDelegate.swift in Sources */,
+				BF9D4B471D1ACFB4000000CC /* MojView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domaci-mojPuzzle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.domaci-mojPuzzle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +299,7 @@
 				BF9D4B431D1ACF50000000CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
